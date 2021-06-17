@@ -1,0 +1,44 @@
+.logo{
+    width: 90px;
+    margin-left: 10%;
+}
+.menu{
+    margin-right: 12%;
+}
+.row{
+    margin: 0 auto;
+}
+
+.requisitos{
+    width: 100%;
+    margin: 15px 0;
+}
+p{
+    margin: 0;
+}
+
+.col{
+
+    margin: 0;
+}
+  
+.imgal{
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+  
+.imagenes{
+    margin-top: 5%;
+}
+  
+div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+    padding: 0px;
+    margin: 0;
+}
+  
+footer{
+    background-color: #2d2d30;
+    color: white;
+    padding: 32px;
+}

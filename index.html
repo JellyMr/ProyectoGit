@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Daniel Sabri</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+        <!--Hoja de estilos-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+         <header>
+           <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+              <a class="navbar-brand logo" href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                      aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav justify-content-end ml-auto menu">
+                <li class="nav-item"><a class="nav-link textoColor" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link textoColor" href="#quienesSomos">¿Quiénes somos?</a></li>
+                <li class="nav-item"><a class="nav-link textoColor" href="#contacto">Contacto</a></li>
+              </ul>    
+            </div>
+        </nav>
+       </header>
+
+       <section id="carrusel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+            <li data-target="#carrusel" data-slide-to="1"></li>
+            <li data-target="#carrusel" data-slide-to="2"></li>
+        </ul>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/amacas.jpg" alt="Imagen 1 del slider" style="width:100%; height:700px;">
+                <div class="carousel-caption">
+                    <h3>¡Tómate unas vacaciones!</h3>
+                    <p>Viaja a cualquier parte de México</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/puente.jpg" alt="Imagen 2 del slider" style="width:100%; height:700px;">
+                <div class="carousel-caption">
+                    <h3>Andar Por México</h3>
+                    <p>Disfruta de bellos paisajes</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/rio.jpg" alt="Imagen 3 del slider" style="width:100%; height:700px;">
+                <div class="carousel-caption">
+                    <h3>Las mejores experiencias</h3>
+                    <p>Vive experiencias inolvidables</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carrusel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+        <a class="carousel-control-next" href="#carrusel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+    </section>
+
+    <br><h1 class="text-center">Servicios</h1>
+    <div class="container-fluid imagenes" id="inicio">
+        <div class="row imagetiles">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="imgal" src=https://www.universal-assistance.com/uablog/wp-content/uploads/2020/04/blog-libros-y-peliculas-viajes-1000x667.jpg class="img-responsive">
+                <div class="texto">
+                  <h4 class="carousel-caption textoImg">Servicio 1 </h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="imgal" src=https://www.universal-assistance.com/uablog/wp-content/uploads/2020/04/blog-libros-y-peliculas-viajes-1000x667.jpg class="img-responsive">
+                <div class="texto">
+                  <h4 class="carousel-caption textoImg">Servicio 2 </h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="imgal" src=https://www.universal-assistance.com/uablog/wp-content/uploads/2020/04/blog-libros-y-peliculas-viajes-1000x667.jpg class="img-responsive">
+                <div class="texto">
+                  <h4 class="carousel-caption textoImg">Servicio 3 </h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="imgal" src=https://www.universal-assistance.com/uablog/wp-content/uploads/2020/04/blog-libros-y-peliculas-viajes-1000x667.jpg class="img-responsive">
+                <div class="texto">
+                  <h4 class="carousel-caption textoImg">Servicio 4 </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+       <br><h1 class="text-center" id="quienesSomos">¿Quiénes Somos?</h1>
+        <section class="row container text-center">
+            
+            <div class="col-sm-4 text-center">
+                <img src="img/somos1.jpg" alt="Puntual" class="requisitos">
+                <h2>Objetivo</h2>
+                <p class="text-justify">Ofrecerte un srvicio de calidad, al generar experiencias inolvidables con nosotros. Atrevete a considerarnos como tu primer opción</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <img src="img/somos2.jpg" alt="Puntual" class="requisitos">
+                <h2>Servicios</h2>
+                <p class="text-justify">Ofrecemos servicios de viaje dentro y fuera de la ciudad, ofreciendo paseos completos a diferentes puntos del destino</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <img src="img/somos3.jpg" alt="Puntual" class="requisitos">
+                <h2>Valores</h2>
+                <p class="text-center">Calidad</p>
+                <p class="text-center">Respeto</p>
+                <p class="text-center">Compromiso</p>
+                <p class="text-center">Puntualidad</p>
+            </div>
+        </section>    
+        
+        
+       <form action="#" method="post" id="contacto" class="text-center">
+           <br><h1>¡Contáctanos!</h1>
+            <div class="col-sm-12 form-group text-center">
+                <input type="text" class="form-control" name="nombre" placeholder="Captura tu nombre">
+            </div>
+            <div class="col-sm-12 form-group">
+                 <input type="email" class="form-control" name="correo" placeholder="example@extension.com" required>
+            </div>
+            <div class="col-sm-12 form-group">
+                 <textarea class="form-control" name="comentarios" rows="5" placeholder="Tu opinión nos interesa"></textarea>
+            </div>
+            <div class="col-sm-12 form-group text-center">
+                <button class="btn btn-danger" type="submit">Enviar</button>
+            </div>
+        </form>
+        
+        <footer class="container-fluid">
+            <a class="up-arrow" href="#" data-toggle="tooltip" title="Volver a inicio">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+            <p class="text-center">Elaborado por el equipo Common Sense: </p>
+            <p class="text-center">Javier Alexander Manríquez Mena</p>
+            <p class="text-center">José Daniel Salazar Briseño</p>
+            <p class="text-center">Luis Armando Beltrán Martínez</p>
+        </footer>
+    </body>
+<html>
